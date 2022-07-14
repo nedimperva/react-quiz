@@ -82,3 +82,35 @@
 .action-button:hover {
   background-color: #555e7d;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .app {
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+  }
+  .score-section {
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+  }
+
+  .answer-section {
+    width: 100%;
+    margin-left: 5%;
+  }
+  span {
+    display: block;
+    padding: 0% !important;
+    font-size: large;
+  }
+  .action-button {
+    width: 50%;
+  }
+  .question-text {
+    font-size: 1.7rem;
+  }
+}
