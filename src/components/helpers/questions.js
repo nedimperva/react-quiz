@@ -5,7 +5,7 @@ const questions = [
     answerOptions: [
       { answerText: "folgen", isCorrect: false },
       { answerText: "Schaf", isCorrect: false },
-      { answerText: "House", isCorrect: true },
+      { answerText: "Hause", isCorrect: true },
       { answerText: "Bereiden", isCorrect: false },
     ],
   },
@@ -13,10 +13,10 @@ const questions = [
     questionEnglishText: "The man is strong.",
     questionGermanText: "Der Mann ist  _____.",
     answerOptions: [
-      { answerText: "schlafen", isCorrect: true },
+      { answerText: "stark", isCorrect: true },
       { answerText: "reisen", isCorrect: false },
-      { answerText: "laufen", isCorrect: false },
-      { answerText: "schwimmen", isCorrect: false },
+      { answerText: "die", isCorrect: false },
+      { answerText: "gehen", isCorrect: false },
     ],
   },
   {
@@ -55,8 +55,8 @@ const questions = [
     answerOptions: [
       { answerText: "Liest", isCorrect: false },
       { answerText: "Redest", isCorrect: false },
-      { answerText: "Machst", isCorrect: true },
-      { answerText: "Sprichst", isCorrect: false },
+      { answerText: "Machst", isCorrect: false },
+      { answerText: "Sprichst", isCorrect: true },
     ],
   },
   {
