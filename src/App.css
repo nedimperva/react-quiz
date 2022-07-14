@@ -83,7 +83,7 @@
   background-color: #555e7d;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 680px) {
   .app {
     min-height: 100vh;
     min-width: 100vw;
